@@ -148,13 +148,13 @@ button:active {
 
 /* HIGHLIGHTS */
 
-#highlight {
+#highlights {
   position: relative;
   max-width: 100vw;
 }
 
 
-#highlights::before {
+#highlights:before {
   background: url('assets/wave.svg');
   content: "";
   position: absolute;
@@ -168,7 +168,7 @@ button:active {
   transform: translateY(-100%);
 }
 
-#highlights::after {
+#highlights:after {
   background: url('assets/wave.svg');
   content: "";
   position: absolute;
