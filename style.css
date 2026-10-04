@@ -318,7 +318,9 @@ button:active {
 }
 
 .book__img {
+  max-height: 100%;
   max-height: 300px;
+  object-fit: contain;
   transition: all 0.3s ease;
   cursor: no-drop;
 }
@@ -424,7 +426,7 @@ padding: 0 8px;
 
   .highlight {
     width: 100%;
-    margin-bottom: 24px;i
+    margin-bottom: 24px;
   }
 
   .highlight:not(:last-child) {
